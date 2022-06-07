@@ -30,7 +30,7 @@ header {
 img {
     width: 17vw;
     padding: 0 0 2vh 2vw;
-    border-bottom: solid 1vh#7f8f83;
+    border-bottom: solid 1vh #6d88ad;
 
 }
 
@@ -43,38 +43,59 @@ main {
 }
 
 .important {
-    /* background-color: green; */
     width: 60vw;
 }
 
-.sidebar {
-    background-color: yellow;
-    width: 20vw;
-}
+/* .sidebar {
+     background-color: yellow;
+   
+} */
 
 .liste-1 {
     margin: 2vh 0 2vh 0;
     padding: 2vh 0 2vh 3vw;
     border-left: 0.5rem solid black;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
+}
+
+.konexio {
+    text-decoration: none;
+    color: black;
 }
 
 .liste-2 {
     margin: 2vh 0 4vh 0;
     padding: 2vh 0 2vh 3vw;
     border-left: 0.5rem solid black;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
 }
 
 .container {
     display: flex;
     width: 50vw;
     padding-bottom: 2vh;
-    /* background-color: tomato; */
-
 }
 
 .date {
-    /* background-color: yellow; */
     width: 15vw;
+}
+
+
+.liste-3 {
+    padding: 2vh 0 3vh 3vw;
+}
+
+.adresse {
+    padding-top: 2vh;
+    color: #6d88ad;
+}
+
+.cordinate {
+    list-style-type: none;
+}
+
+.coordinate a {
+    text-decoration: none;
+    color: #6d88ad;
+
 }
