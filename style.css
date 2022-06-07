@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    background-color: #cdf7d9;
+    background-color: #cedbd9;
     margin: auto;
 }
 
@@ -39,11 +39,12 @@ main {
     width: 80vw;
     padding-top: 3vh;
     margin: auto;
-    background-color: #cdf7d9;
+    background-color: #cedbd9;
 }
 
 .important {
     width: 60vw;
+    padding-left: 3vw;
 }
 
 /* .sidebar {
