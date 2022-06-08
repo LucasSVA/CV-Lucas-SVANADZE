@@ -8,16 +8,12 @@
     src: url("../fonts/Alegreya-Regular.ttf")
 }
 
-body {
-    background-color: #dff2e4;
-}
-
 header {
     padding: 5vh 4vw 0 4vw;
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    background-color: #e9f5f7;
+    background-color: #eff5f5;
     margin: auto;
 }
 
@@ -31,25 +27,35 @@ header {
 
 }
 
-h1 {
-    font-size: 2.2rem;
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: 700;
+.keywords .phrase {
+    margin-top: 2vh;
+    font-family: "Dancing";
+    font-size: 1.7rem;
+    color: #5e78c4;
 }
 
 .keywords p {
 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Alegraya";
 }
 
-h3 {
-    font-size: 1.3rem;
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    word-spacing: 0.4vw;
+}
+
+h2 {
+    font-size: 1.6rem;
     font-weight: 700;
+    word-spacing: 0.4vw;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.4vw;
 }
 
 h4 {
@@ -58,24 +64,21 @@ h4 {
 }
 
 h5 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
     padding-bottom: 1vh;
 }
 
-.keywords .phrase {
-    font-family: "Dancing";
-    font-size: 1.7rem;
-    color: #5e78c4;
+h6 {
 
-
+    font-weight: 600;
 }
 
-.mainpic {
+
+.myphoto {
     width: 17vw;
     padding: 0 0 2vh 2vw;
     border-bottom: solid 1vh #6d88ad;
-
 }
 
 main {
@@ -84,20 +87,16 @@ main {
     width: 80vw;
     padding-top: 3vh;
     margin: auto;
-    background-color: #e9f5f7;
+    background-color: #eff5f5;
 }
 
-p {
+main p {
     font-family: "Alegraya";
-}
-
-.sidebar li {
-    font-family: "Alegraya";
-    padding-bottom: 1vh;
+    font-style: oblique;
 }
 
 .important {
-    width: 60vw;
+    width: 54vw;
     padding: 7vh 0 0 3vw;
 }
 
@@ -109,17 +108,16 @@ p {
     list-style-type: initial;
 }
 
-.konexio {
-    text-decoration: none;
-    color: black;
-}
-
 .liste-2 {
     list-style-type: initial;
     margin: 2vh 0 4vh 0;
     padding: 2vh 0 2vh 3vw;
     border-left: 0.5rem solid black;
     border-radius: 0.8rem;
+}
+
+.formation {
+    margin-bottom: 4vh;
 }
 
 .container {
@@ -132,12 +130,21 @@ p {
     width: 15vw;
 }
 
-.formation {
-    margin-bottom: 4vh;
+.sidebar li {
+
+    /* Pourquoi il change de couleur???????????? */
+    /* font-weight: 700; */
+    font-family: "Alegraya";
+    padding-bottom: 1vh;
+}
+
+.konexio {
+    text-decoration: none;
+    color: black;
 }
 
 .liste-3 {
-    padding: 2vh 0 3vh 3vw;
+    padding: 2vh 0 3vh 2vw;
     list-style-type: initial;
 }
 
@@ -150,8 +157,9 @@ p {
     display: flex;
 }
 
-.adress {
-    width: 1.6vw;
+.icon {
+    width: 1.4vw;
+    margin-right: 1vw;
 }
 
 .coordinate {
@@ -162,5 +170,4 @@ p {
 .coordinate a {
     text-decoration: none;
     color: #6d88ad;
-
 }
