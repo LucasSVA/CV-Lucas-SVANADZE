@@ -1,173 +1,175 @@
-@font-face {
-    font-family: "Dancing";
-    src: url("../fonts/DancingScript-Regular.ttf")
-}
+ @font-face {
+     font-family: "Dancing";
+     src: url("./fonts/DancingScript-Regular.ttf")
+ }
 
-@font-face {
-    font-family: "Alegraya";
-    src: url("../fonts/Alegreya-Regular.ttf")
-}
+ @font-face {
+     font-family: "Alegraya";
+     src: url("./fonts/Alegreya-Regular.ttf")
+ }
 
-header {
-    padding: 5vh 4vw 0 4vw;
-    display: flex;
-    justify-content: space-between;
-    width: 80vw;
-    background-color: #eff5f5;
-    margin: auto;
-}
+ header {
+     padding: 5vh 4vw 0 4vw;
+     display: flex;
+     justify-content: space-between;
+     width: 80vw;
+     background-color: #eff5f5;
+     margin: auto;
+ }
 
-.keywords {
-    padding: 1vh;
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+ .keywords {
+     padding: 1vh;
+     width: 60vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
 
-}
-
-.keywords .phrase {
-    margin-top: 2vh;
-    font-family: "Dancing";
-    font-size: 1.7rem;
-    color: #5e78c4;
-}
-
-.keywords p {
-
-    font-size: 1.2rem;
-    font-family: "Alegraya";
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    word-spacing: 0.4vw;
-}
-
-h2 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    word-spacing: 0.4vw;
-}
-
-h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    word-spacing: 0.4vw;
-}
-
-h4 {
-    font-size: 1.4rem;
-    font-weight: 800;
-}
-
-h5 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding-bottom: 1vh;
-}
-
-h6 {
-
-    font-weight: 600;
-}
+ }
 
 
-.myphoto {
-    width: 17vw;
-    padding: 0 0 2vh 2vw;
-    border-bottom: solid 1vh #6d88ad;
-}
 
-main {
-    padding: 0 7vw 0 4vw;
-    display: flex;
-    width: 80vw;
-    padding-top: 3vh;
-    margin: auto;
-    background-color: #eff5f5;
-}
+ .keywords p {
 
-main p {
-    font-family: "Alegraya";
-    font-style: oblique;
-}
+     font-size: 1.2rem;
+     font-family: "Alegraya";
+ }
 
-.important {
-    width: 54vw;
-    padding: 7vh 0 0 3vw;
-}
+ .keywords .phrase {
+     margin-top: 5vh;
+     font-family: "Dancing";
+     font-size: 1.7rem;
+     color: #5e78c4;
+ }
 
-.liste-1 {
-    margin: 2vh 0 2vh 0;
-    padding: 2vh 0 2vh 3vw;
-    border-left: 0.5rem solid black;
-    border-radius: 0.8rem;
-    list-style-type: initial;
-}
+ h1 {
+     font-size: 2rem;
+     font-weight: 600;
+     word-spacing: 0.4vw;
+ }
 
-.liste-2 {
-    list-style-type: initial;
-    margin: 2vh 0 4vh 0;
-    padding: 2vh 0 2vh 3vw;
-    border-left: 0.5rem solid black;
-    border-radius: 0.8rem;
-}
+ h2 {
+     font-size: 1.6rem;
+     font-weight: 700;
+     word-spacing: 0.4vw;
+ }
 
-.formation {
-    margin-bottom: 4vh;
-}
+ h3 {
+     font-size: 1.2rem;
+     font-weight: 700;
+     word-spacing: 0.4vw;
+ }
 
-.container {
-    display: flex;
-    width: 50vw;
-    padding-bottom: 2vh;
-}
+ h4 {
+     font-size: 1.4rem;
+     font-weight: 800;
+ }
 
-.date {
-    width: 15vw;
-}
+ h5 {
+     font-size: 1.2rem;
+     font-weight: 700;
+     padding-bottom: 1vh;
+ }
 
-.sidebar li {
+ h6 {
 
-    /* Pourquoi il change de couleur???????????? */
-    /* font-weight: 700; */
-    font-family: "Alegraya";
-    padding-bottom: 1vh;
-}
+     font-weight: 600;
+ }
 
-.konexio {
-    text-decoration: none;
-    color: black;
-}
 
-.liste-3 {
-    padding: 2vh 0 3vh 2vw;
-    list-style-type: initial;
-}
+ .myphoto {
+     width: 17vw;
+     padding: 0 0 2vh 2vw;
+     border-bottom: solid 1vh #6d88ad;
+ }
 
-.adresse {
-    padding-top: 5vh;
-    color: #6d88ad;
-}
+ main {
+     padding: 0 7vw 0 4vw;
+     display: flex;
+     width: 80vw;
+     padding-top: 3vh;
+     margin: auto;
+     background-color: #eff5f5;
+ }
 
-.coordinate address li {
-    display: flex;
-}
+ main p {
+     font-family: "Alegraya";
+     font-style: oblique;
+ }
 
-.icon {
-    width: 1.4vw;
-    margin-right: 1vw;
-}
+ .important {
+     width: 54vw;
+     padding: 7vh 0 0 3vw;
+ }
 
-.coordinate {
-    padding-left: 0;
-    list-style-type: none;
-}
+ .liste-1 {
+     margin: 2vh 0 2vh 0;
+     padding: 2vh 0 2vh 3vw;
+     border-left: 0.5rem solid black;
+     border-radius: 0.8rem;
+     list-style-type: initial;
+ }
 
-.coordinate a {
-    text-decoration: none;
-    color: #6d88ad;
-}
+ .liste-2 {
+     list-style-type: initial;
+     margin: 2vh 0 4vh 0;
+     padding: 2vh 0 2vh 3vw;
+     border-left: 0.5rem solid black;
+     border-radius: 0.8rem;
+ }
+
+ .formation {
+     margin-bottom: 4vh;
+ }
+
+ .container {
+     display: flex;
+     width: 50vw;
+     padding-bottom: 2vh;
+ }
+
+ .date {
+     width: 15vw;
+ }
+
+ .sidebar li {
+
+     /* Pourquoi il change de couleur???????????? */
+     /* font-weight: 700; */
+     font-family: "Alegraya";
+     padding-bottom: 1vh;
+ }
+
+ .konexio {
+     text-decoration: none;
+     color: black;
+ }
+
+ .liste-3 {
+     padding: 2vh 0 3vh 2vw;
+     list-style-type: initial;
+ }
+
+ .adresse {
+     padding-top: 5vh;
+     color: #6d88ad;
+ }
+
+ .coordinate address li {
+     display: flex;
+ }
+
+ .icon {
+     width: 1.4vw;
+     margin-right: 1vw;
+ }
+
+ .coordinate {
+     padding-left: 0;
+     list-style-type: none;
+ }
+
+ .coordinate a {
+     text-decoration: none;
+     color: #6d88ad;
+ }
