@@ -8,8 +8,6 @@
     src: url("../fonts/Alegreya-Regular.ttf")
 }
 
-
-
 body {
     background-color: #dff2e4;
 }
@@ -19,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    background-color: #cedbd9;
+    background-color: #e9f5f7;
     margin: auto;
 }
 
@@ -44,12 +42,25 @@ h2 {
 }
 
 .keywords p {
+
     font-size: 1.1rem;
+    font-family: "Alegraya";
 }
 
 h3 {
-    font-size: 1.7 rem;
+    font-size: 1.3rem;
     font-weight: 700;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 1vh;
 }
 
 .keywords .phrase {
@@ -60,7 +71,7 @@ h3 {
 
 }
 
-img {
+.mainpic {
     width: 17vw;
     padding: 0 0 2vh 2vw;
     border-bottom: solid 1vh #6d88ad;
@@ -68,20 +79,27 @@ img {
 }
 
 main {
-    padding: 5vh 7vw 0 4vw;
+    padding: 0 7vw 0 4vw;
     display: flex;
     width: 80vw;
     padding-top: 3vh;
     margin: auto;
-    background-color: #cedbd9;
+    background-color: #e9f5f7;
+}
+
+p {
+    font-family: "Alegraya";
+}
+
+.sidebar li {
+    font-family: "Alegraya";
+    padding-bottom: 1vh;
 }
 
 .important {
     width: 60vw;
-    padding-left: 3vw;
+    padding: 7vh 0 0 3vw;
 }
-
-
 
 .liste-1 {
     margin: 2vh 0 2vh 0;
@@ -114,6 +132,9 @@ main {
     width: 15vw;
 }
 
+.formation {
+    margin-bottom: 4vh;
+}
 
 .liste-3 {
     padding: 2vh 0 3vh 3vw;
@@ -121,11 +142,20 @@ main {
 }
 
 .adresse {
-    padding-top: 2vh;
+    padding-top: 5vh;
     color: #6d88ad;
 }
 
+.coordinate address li {
+    display: flex;
+}
+
+.adress {
+    width: 1.6vw;
+}
+
 .coordinate {
+    padding-left: 0;
     list-style-type: none;
 }
 
