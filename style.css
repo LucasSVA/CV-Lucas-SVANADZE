@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Dancing Script";
+    font-family: "Dancing";
     src: url("../fonts/DancingScript-Regular.ttf")
 }
 
@@ -24,12 +24,39 @@ header {
 }
 
 .keywords {
-    padding: 2vw;
-    width: 60%;
+    padding: 1vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.keywords p {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 1.7 rem;
+    font-weight: 700;
+}
+
+.keywords .phrase {
+    font-family: "Dancing";
+    font-size: 1.7rem;
+    color: #5e78c4;
+
 
 }
 
