@@ -27,8 +27,6 @@
 
  }
 
-
-
  .keywords p {
 
      font-size: 1.2rem;
@@ -97,6 +95,11 @@
      font-style: oblique;
  }
 
+ .konexio {
+     text-decoration: none;
+     color: black;
+ }
+
  .important {
      width: 54vw;
      padding: 7vh 0 0 3vw;
@@ -132,17 +135,16 @@
      width: 15vw;
  }
 
+ aside {
+     width: 20vw;
+ }
+
  .sidebar li {
 
      /* Pourquoi il change de couleur???????????? */
      /* font-weight: 700; */
      font-family: "Alegraya";
      padding-bottom: 1vh;
- }
-
- .konexio {
-     text-decoration: none;
-     color: black;
  }
 
  .liste-3 {
@@ -155,6 +157,7 @@
      color: #6d88ad;
  }
 
+
  .coordinate address li {
      display: flex;
  }
@@ -162,6 +165,12 @@
  .icon {
      width: 1.4vw;
      margin-right: 1vw;
+ }
+
+ .github {
+     font-size: 1.4rem;
+     margin-right: 0.8vw;
+     color: black;
  }
 
  .coordinate {
